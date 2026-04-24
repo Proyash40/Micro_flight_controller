@@ -8,16 +8,19 @@ It uses a seeed XIAO and a bunch of tiny SMD parts (0805 mostly). it actually wo
 Basically a 4 channel RC flight computer. it takes throttle, aileron, elevator, and rudder from an nRF24 radio, runs it through some PID math at 100Hz, checks the gyro, and moves the servos so your plane doesn't instantly do a death flip.
 
 ### Stuff u need to build this (BOM)
+---
 
-The Brain: Seeed Studio XIAO (I used the nRF52840 but RP2040 works too). You solder it flat onto the board.
-
-The Gyro: MPU6050... BUT WAIT. NOT the blue breakout board. The actual raw QFN-24 black chip. Good luck soldering this without flux lmao.
-
-Radio: nRF24L01+ PA+LNA (the one with the big antenna so u get like 700m-1km range).
-
-Power: AMS1117 3.3V regulator (SOT-223) + a massive 100uF 1210 capacitor so the radio doesn't brown out and kill the connection mid flight.
-
-Misc: Some 0805 resistors (4.7k for the I2C) and 0805 caps (0.1uF, 2.2nF, 10uF). 
+| Name | Purpose | Quantity | Price (1 Unit) | Price Total(USD) | Links| 
+| :-- | :-- | :-- | :-- | :-- | :-- |
+| 4.7k smd resistor| I2C Pull-up for MPU6050  | 2     | $3.61    | $3.61   | [Link](https://robu.in/product/pro-range-resistor-assortment-kit?gbraid=0AAAAADvLFWev9HLp4sxOwY4NhUPUn_UtG&gad_source=1&gclid=CjwKCAjwhqfPBhBWEiwAZo196v5bzfSOsC9HW_fTPULaQ9_nrkw8cpucVvh93sHcz886qdtSFOGdzhoCiaEQAvD_BwE&gad_campaignid=17413441824)|
+| AMS1117 | Power Stability | 1 | $0.1 | $0.1 | [link](https://robu.in/product/ams1117-5-0-kexin-800ma-fixed-5v-positive-electrode-18v-sot-223-4-voltage-regulators-linear-low-drop-out-ldo-regulators-rohs?gclid=CjwKCAjwhqfPBhBWEiwAZo196rn1-FbjdC99BRNd9EsXMXFG3gaLsCGdJgY27B3j1U-KVRJFFhwOmRoCjTQQAvD_BwE&gbraid=0AAAAADvLFWcFOfMDkpSzIEVzy6CGMtIqJ&gad_campaignid=17427802703&gad_source=1) |
+| MPU6050 | 3 axis gyro + accelerometer | 1 | $2.55 | $2.55 | [link](https://quartzcomponents.com/products/mpu-6050-3-axis-gyro-accelerometer-ic-tdk-invensense-qfn-24-smd-package?variant=45045443920106&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopUSjOK5jLivqVKUFYTqOvJck_zu4O2Uv3mEJbdvORH596ugewjbbI) |
+| Seeed studio XIAO ESP32 supermini C3 | The main brain | 1 | $9.56 | $9.56 | [Link](https://robu.in/product/seeed-studio-xiao-esp32s3-2-4ghz-wifi-ble-5-0?gbraid=0AAAAADvLFWcFOfMDkpSzIEVzy6CGMtIqJ&gad_campaignid=17427802703&gad_source=1&gclid=CjwKCAjwhqfPBhBWEiwAZo196qhD7iCgQVOGc9_I62SJPdePZ3dxGMH-cF4la4ANgsBjqeiDQebpEhoCmOUQAvD_BwE) |
+| PCB print | Holding all the components together | 1 | $ 3 | $3 | [Link](https://cart.jlcpcb.com/quote)
+| Capacitor 0.1uF (100nF) 0805| Decoupling for MPU6050 | 3 | -- | -- | I'd recomend buying it offline |
+| Capacitor 2.2nF 0805 | MPU6050 Charge Pump | 1 |  -- | -- | I'd recomend buying it offline |
+| Capacitor 10uF 0805 | AMS1117 Input Filter| 2 |  -- | -- | I'd recomend buying it offline |
+| Capacitor 100uF 1210 | nRF24 Power Buffer* | 2 | -- | -- | I'd recomend buying it offline |
 
 ### IMPORTANT RANT ABOUT SOLDER
 

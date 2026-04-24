@@ -59,6 +59,34 @@ Note: The loop is locked at 100Hz so the servos don't twitch themselves to death
 5) Pray your PID tuning is right.
 
 ---
+
+### Images
+
+<img width="567" height="304" alt="rough_idea" src="https://github.com/user-attachments/assets/ba8ec647-2308-45a9-89b9-e96af4b6e32f" />
+
+<img width="1470" height="956" alt="schematic" src="https://github.com/user-attachments/assets/8b7a59e4-6d95-4124-9809-36c9e2a8fabe" />
+
+<img width="1470" height="956" alt="pcb" src="https://github.com/user-attachments/assets/99c6884b-66cb-443f-8072-5808f4db738b" />
+
+<img width="1470" height="865" alt="silkscreen1" src="https://github.com/user-attachments/assets/47c830dd-5660-4f57-bc21-641d07feefbb" />
+
+<img width="1470" height="956" alt="3d_frontview" src="https://github.com/user-attachments/assets/9697529c-a31c-452a-9e7e-658255ed75a3" />
+
+<img width="1470" height="956" alt="silkscreen2_3d" src="https://github.com/user-attachments/assets/3a2b82dd-2f51-4d91-93bc-d145c367eba5" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 If u haven't flown any rc before, I'd recomend to let someone experienced fly it first unless you want to destroy all your hard work on  the first flight.
 
 ---

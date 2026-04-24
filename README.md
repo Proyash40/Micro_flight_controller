@@ -1,7 +1,9 @@
-### Micro flight controller ✈️
+### Micro flight controller 
 Okay so I couldn't find a flight controller small enough or light enough for what I needed, so I just designed one from scratch lol.
 
 It uses a seeed XIAO and a bunch of tiny SMD parts (0805 mostly). it actually works and flies pretty smooth but u have to be okay with soldering things the size of a grain of rice.
+
+---
 
 ### What is this?
 

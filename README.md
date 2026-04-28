@@ -64,7 +64,11 @@ Note: The loop is locked at 100Hz so the servos don't twitch themselves to death
 
 <img width="567" height="304" alt="rough_idea" src="https://github.com/user-attachments/assets/ba8ec647-2308-45a9-89b9-e96af4b6e32f" />
 
+<img width="973" height="768" alt="Screenshot 2026-04-28 at 12 12 12 PM" src="https://github.com/user-attachments/assets/c7b030ec-b461-4fc1-a34f-3fadea1d508a" />
+
 <img width="1470" height="956" alt="schematic" src="https://github.com/user-attachments/assets/8b7a59e4-6d95-4124-9809-36c9e2a8fabe" />
+
+<img width="1049" height="801" alt="schematic1" src="https://github.com/user-attachments/assets/1670c59f-43e2-421c-a51c-4f15b69bbcec" />
 
 <img width="1470" height="956" alt="pcb" src="https://github.com/user-attachments/assets/99c6884b-66cb-443f-8072-5808f4db738b" />
 

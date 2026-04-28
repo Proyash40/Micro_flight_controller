@@ -28,6 +28,13 @@ So finnally this was the basic design. I just tried to make the Flight Controlle
 Now lets see, how small I can make the PCB✌🏻
 
 ---
+### The circuit design
+
+<img width="973" height="768" alt="Screenshot 2026-04-28 at 12 12 12 PM" src="https://github.com/user-attachments/assets/6ac7e00d-6e60-426f-8b74-c93bf70b0ad5" />
+
+This was my circuit diagram, I know its very hard to understand, so I'd recommned to look at the schematic which I'd make later on. And also I've not checked the whole diagram precisely, there is some issues with it which i ddecided to fix in the schematic.
+
+---
 
 ### Schematic and PCB design
 
@@ -45,8 +52,10 @@ So I put on my headphones nd slept. after about an hour or so I woke up did some
 ---
 <img width="1049" height="801" alt="schematic1" src="https://github.com/user-attachments/assets/4636b506-882b-4ef4-a9d9-8153106e34e0" />
 
-I later cleanedup the schematic for a better understanding.
 
+I later cleanedup the schematic for a better understanding. And note that I've forgotten to add the "no connection mark" on the ESP32 3V3 pin, it wont create any blunder but while running ERC, it might show as unconnected port, thats all.
+
+:) 
 ---
 
 Then assigned the footprints, I downloaded the footprint for this specific ESP32 from [here](https://www.snapeda.com/parts/102010428/Seeed%20Technology%20Co.%2C%20Ltd/view-part/?ref=search&t=seeed%20studio%20xiao%20esp32&ab_test_case=b) and added to my library. Though it was pretty easy, but i forgot to save the footprint at first, nd was really screaming when i switched to PCB mode, as i couldn't see any of the components. Then i again went back and saved the footprints. Joined the wires again and prepared my mini PCB which is almost as small as a 4*4 cm square.

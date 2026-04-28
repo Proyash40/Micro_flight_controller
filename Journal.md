@@ -43,6 +43,11 @@ So I put on my headphones nd slept. after about an hour or so I woke up did some
 <img width="1470" height="956" alt="schematic" src="https://github.com/user-attachments/assets/36a0c3e6-3fdf-4837-a15d-ba656b276d6e" />
 
 ---
+<img width="1049" height="801" alt="schematic1" src="https://github.com/user-attachments/assets/4636b506-882b-4ef4-a9d9-8153106e34e0" />
+
+I later cleanedup the schematic for a better understanding.
+
+---
 
 Then assigned the footprints, I downloaded the footprint for this specific ESP32 from [here](https://www.snapeda.com/parts/102010428/Seeed%20Technology%20Co.%2C%20Ltd/view-part/?ref=search&t=seeed%20studio%20xiao%20esp32&ab_test_case=b) and added to my library. Though it was pretty easy, but i forgot to save the footprint at first, nd was really screaming when i switched to PCB mode, as i couldn't see any of the components. Then i again went back and saved the footprints. Joined the wires again and prepared my mini PCB which is almost as small as a 4*4 cm square.
 

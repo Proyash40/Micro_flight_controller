@@ -9,7 +9,8 @@ It uses a seeed XIAO and a bunch of tiny SMD parts (0805 mostly). it actually wo
 
 Basically a 4 channel RC flight computer. it takes throttle, aileron, elevator, and rudder from an nRF24 radio, runs it through some PID math at 100Hz, checks the gyro, and moves the servos so your plane doesn't instantly do a death flip.
 
-### Stuff u need to build this (BOM)
+### Stuff u need to build this
+### The BOM
 ---
 
 | Name | Purpose | Quantity | Price (1 Unit) | Price Total(USD) | Links| 
